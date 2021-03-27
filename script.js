@@ -2,17 +2,17 @@
 var generateBtn = document.querySelector("#generate");
 
 //added variable options to generate password
-var upperCaseOption = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
-var upperCaseArr = upperCaseOption.split("")
-var lowerCaseOption = "abcdefghijklmnopqrstuvwxyz" 
-var lowerCaseArr = lowerCaseOption.split("")
-var specialCharactersOption = "!@#$%^&*()?" 
-var specialCharactersArr = specialCharacterOption.split("")
-var numbersOption = "0123456789" 
-var numbersOptionArr = numberOption.split("")
+var upperCaseOption = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" .split("")
+//var upperCaseArr = upperCaseOption.split("")
+var lowerCaseOption = "abcdefghijklmnopqrstuvwxyz" .split("")
+//var lowerCaseArr = lowerCaseOption.split("")
+var specialCharactersOption = "!@#$%^&*()?" .split("")
+//var specialCharactersArr = specialCharactersOption.split("")
+var numbersOption = "0123456789" .split("")
+//var numbersOptionArr = numbersOption.split("")
 
 //prompting user instructions to begin 
-window.onload = alert("Welcome! Select 'Generate Password' to start!")
+window.onload = alert("Welcome! Select 'Generate Password' to start!");
 
 //Prompt questions to ask user in order to generate password
 function generatePassword() {
@@ -36,12 +36,13 @@ function generatePassword() {
     alert("Value must be a number.");
     return;
   }
-  else {
+
 //prompt user for types of characters such as lower or upper case and numbers and special characters  
   var upperCase = confirm("Would you like to include upper case letters?");
   var specialCharacters = confirm("Would you like to include special characters?");
   var lowerCase = confirm("Would you like to include lower case letters?");
   var numbers = confirm("Would you like to include numbers?");
+  
 
   var chosenCharacters = [] 
   if (upperCase) {
@@ -56,11 +57,14 @@ function generatePassword() {
   if (specialCharacters) {
     chosenCharacters = chosenCharacters.concat(specialCharactersOption);
   }
-  var passwordCreated = [];
-  for (var i = 0; i < length; i++) {
-    passwordCreated.push(chosenCharacters[Math.floor(Math.random() * chosenCharacters.length)]);
+  else {
+  var password = [];
+
+  for (var i = 0; i < lengthPassword; i++){
+    password.push(chosenCharacters[Math.floor(Math.random() * chosenCharacters.lengthPassword)]);
   }
-  return passwordCreated;
+  return password;
+  }
 }
 
 // Write password to the #password input
