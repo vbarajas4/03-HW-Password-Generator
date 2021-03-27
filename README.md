@@ -1,6 +1,6 @@
 # 📌 03-HW-Password-Generator 📌
 
-[Link to GitHub deployed Webpage]
+[Link to GitHub deployed Webpage](https://vbarajas4.github.io/03-HW-Password-Generator/)
 
 ## User Story
 AS AN employee with access to sensitive data
@@ -8,25 +8,22 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 
 ## Project Outline
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+I was given a starter coding this week, in which most of the work needed to be done in the script.js. 
+
+After much hours of working on this application to generate a random password, I was finally able to present a series of prompts for password criteria when they pressed the generate a password button. User is able to select which criteria to include in the password and how many character  between 8-128 the user wishes the password to be. User is also able to choose whether to include uppercase, lowercase, numbers, and/or symbols. User must select at least one criteria to include when generating a password. Once all the prompts are answered, a password is then generated and user has their new password written on the page based on the user selections.
+
+This project proved to be challenging for me, as I couldnt get the application to generate a random password at all. 
+The variables and prompts where all working just fine, but it would stop once it was time to randomize the characters.
+At last, I recruited for help and was able to find my one mistake word inside the brackets of math.random when it came time to create random password. Now my application was working perfectly.
 
 
 ## Screenshot of my Live Github Page
 
+<img width="899" alt="Screen Shot 2021-03-27 at 2 24 54 PM" src="https://user-images.githubusercontent.com/79430431/112735571-39607600-8f0a-11eb-8912-cc8c24b630b0.png">
+
+<img width="899" alt="Screen Shot 2021-03-27 at 2 25 13 PM" src="https://user-images.githubusercontent.com/79430431/112735584-509f6380-8f0a-11eb-9180-c8f986b8873d.png">
+
+<img width="899" alt="Screen Shot 2021-03-27 at 2 37 30 PM" src="https://user-images.githubusercontent.com/79430431/112735559-22ba1f00-8f0a-11eb-9aad-ab9be182b55a.png">
 
 
 ## Important Links 
@@ -35,6 +32,7 @@ GitHub Repository Link
 
 
 Link to GitHub deployed Webpage 
+https://vbarajas4.github.io/03-HW-Password-Generator/
 
 
 ## License

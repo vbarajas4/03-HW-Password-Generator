@@ -51,7 +51,7 @@ else if (lengthPassword >= 8 && lengthPassword <= 128) {
     return '';
     }
   }
-
+//putting all the characters chosen into the box to hold the different array characters.
   var chosenCharacters = [] 
   if (upperCase) {
     chosenCharacters = chosenCharacters.concat(upperCaseArr);    
@@ -65,7 +65,7 @@ else if (lengthPassword >= 8 && lengthPassword <= 128) {
   if (specialCharacters) {
     chosenCharacters = chosenCharacters.concat(specialCharactersArr);   
   }
-  
+  //creating user random password
   var createpassword = [];
 
   for (var i = 0; i < lengthPassword; i++){
