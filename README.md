@@ -13,7 +13,6 @@ I was given a starter coding this week, in which most of the work needed to be d
 
 After many hours of working on this application to generate a random password, I was finally able to present a series of prompts for password criteria when they press the generate a password button. The user is able to select which criteria to include in the password and how many characters between 8-128 the user wishes the password to be. The user is also able to choose whether to include uppercase, lowercase, numbers, and/or symbols. The User must select at least one criteria to include when generating a password. Once all the prompts are answered, a password is then generated and the user has their new password written on the page based on the user selections.
 
-This project proved to be challenging for me, as I couldn't get the application to generate a random password at all. The variables and prompts were all working just fine, but it would stop once it was time to randomize the characters.At last, I recruited for help and was able to find my one mistake word inside the brackets of math.random when it came time to create a random password. Now my application was working perfectly.
 
 ## Screenshot of my Live Github Page
 
