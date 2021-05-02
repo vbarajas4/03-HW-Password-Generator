@@ -31,6 +31,21 @@ https://github.com/vbarajas4/03-HW-Password-Generator
 Link to GitHub deployed Webpage 
 https://vbarajas4.github.io/03-HW-Password-Generator/
 
+## Framework/Technolgies
+
+HTML 
+
+CSS
+
+JavaScript
+
+Local Storage
+
+## Contact Information
+
+[Email](vbarajas4@gmail.com)
+
+[LinkIn](https://www.linkedin.com/in/vanessa-maldonado-90668110a/)
 
 ## License
 
